@@ -1,0 +1,47 @@
+h1{
+    color: white;
+    background-color: rgb(107, 96, 255);
+    font-size: 1.5em;
+    text-align: center;
+    padding: 25px;
+}
+body{
+    background-color: rgba(105, 105, 105, 0.123);
+}
+.navbar{
+    background-color: hsl(0, 0%, 47%);
+    
+    
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar a{
+    display: block;
+    text-decoration: none;
+    padding: 3px 15px;
+    text-align: center;
+    border: 2px solid hsl(0, 2%, 47%);
+    border-radius: 10px;
+    
+}
+aside{
+    width: 20%;
+    background-color: lightgray;
+    float: left;
+}
+section{
+    width: 40%;
+    float: left;
+}
+article{
+    width: 40%;
+    float: left;
+}
+footer{
+    display:inline;
+    font-size: 1.5em;
+    text-align: center;
+}
